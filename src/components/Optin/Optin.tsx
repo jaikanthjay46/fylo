@@ -14,7 +14,7 @@ const Optin: React.FC = () => (
             <p className="lead">it only takes a minute to signup and our free starter tier is extremely generous. If you have any question, our support team would be happy to help you.</p>
           </Column>
           <Column size={{xs: 12, md:8}}>
-            <input type="email" name="email" id="email" placeholder="email@example.com"/>
+            <input aria-label="Email Address" type="email" name="email" id="email" placeholder="email@example.com"/>
           </Column>
           <Column size={{xs: 12, md:4}}>
             <button className="btn btn-primary">Get Started For Free</button>
