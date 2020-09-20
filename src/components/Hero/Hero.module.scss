@@ -16,17 +16,18 @@
 
 @media (min-width: 375px) {
     .Hero {
+        padding-bottom: 12rem;
         background-image: url(../../assets/images/bg-curvy-desktop.svg);
-    }
-    
-    .title {
-        padding-left: 7rem;
-        padding-right: 7rem;
-    }
 
-    .lead {
-        padding-left: 20rem;
-        padding-right: 20rem;
+        h1 {
+            padding-left: 7rem;
+            padding-right: 7rem;
+        }
+    
+        p {
+            padding-left: 20rem;
+            padding-right: 20rem;
+        }
     }
 }
 

@@ -15,7 +15,7 @@ const Hero: React.FC = () => (
       </Row>
       <Row>
         <Column size={12}>
-          <h1 className="title">All your files in one secure location, Accessible Anywhere</h1>
+          <h1 className="title">All your files in one secure location, Accessible Anywhere.</h1>
         </Column>
         <Column size={12}>
           <p className={styles.lead}> Fylo stores all of your most important files in one secure location. Access them whenevr you need, share and collaborate with friends family, and co-workers. </p>
