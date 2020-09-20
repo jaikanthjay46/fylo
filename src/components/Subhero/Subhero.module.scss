@@ -1,0 +1,41 @@
+
+.Hero {
+    padding-top: 4rem;
+    background-color: #181e2a;
+    padding-bottom: 4rem;
+}
+
+.heroImage {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    margin-left: 1rem;
+}
+
+.title {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.lead {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    text-align: left;
+}
+
+
+@media (min-width: 1440px) {
+    .title {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .lead {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
