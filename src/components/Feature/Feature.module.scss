@@ -8,6 +8,13 @@
     margin-right: auto
 }
 
+@media (min-width: 375px) {
+    .lead {
+        padding-left: 7rem;
+        padding-right: 6rem;
+    }
+}
+
 
 .lead {
     text-align: center;

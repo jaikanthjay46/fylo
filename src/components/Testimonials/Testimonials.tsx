@@ -4,7 +4,23 @@ import { Container } from "react-bootstrap-grid-component/dist/Container";
 import { Column } from "react-bootstrap-grid-component/dist/Column";
 import { Row } from "react-bootstrap-grid-component/dist/Row";
 import profile1 from "../../assets/images/profile-1.jpg"
+import profile2 from "../../assets/images/profile-2.jpg"
+import profile3 from "../../assets/images/profile-3.jpg"
 
+const testimonialsData = [
+  {
+    image: profile1,
+    name: 'Harsh Patel'
+  },
+  {
+    image: profile2,
+    name: 'Bruce McKenzie'
+  },
+  {
+    image: profile3,
+    name: 'Ivan Boyd'
+  },
+]
 
 const getTestimonials = () => {
   let items = []
@@ -14,9 +30,9 @@ const getTestimonials = () => {
           <div className={styles.TestimonialBox}>
             <p>Fylo has improved our team's productivity by order of a magnitude.Since making the switch or team has become well-oiled collaboration</p>
             <div className={styles.info}>
-                <img className=".img-responsive" src={profile1} alt="testimonial1"/>
-                <h3>Harsh Patel</h3>
-                <p>Founder & Ceo</p>
+                <img className=".img-responsive" src={testimonialsData[i].image} alt="testimonial"/>
+                <h3>{testimonialsData[i].name}</h3>
+                <p>Founder & CEO, Huddle</p>
             </div>
           </div>
         </Column>
